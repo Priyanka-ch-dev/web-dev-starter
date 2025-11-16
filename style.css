@@ -1,3 +1,36 @@
-p{
-    color: red;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px 0;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #357ab7;
 }
